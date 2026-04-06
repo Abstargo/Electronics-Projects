@@ -153,7 +153,7 @@ architecture rtl of mux2 is
 begin
     y <= a when sel = '0' else b;
 end rtl;
-´´´
+```
 ## VHDL Reserved Words
 
 **abs**           operator, absolute value of right operand. No () needed.
