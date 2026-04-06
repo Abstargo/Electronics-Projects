@@ -1,1 +1,2 @@
-<img width="917" height="449" alt="circuit" src="https://github.com/user-attachments/assets/b46f93af-8179-40a1-b48d-b24b333b41bd" />
+![alt text](<Screenshot 2026-04-06 165820.png>)
+![alt text](<Screenshot 2026-04-06 165504.png>)
