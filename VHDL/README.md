@@ -156,7 +156,7 @@ end rtl;
 ```
 ## VHDL Reserved Words
 
-**abs**           operator, absolute value of right operand. No () needed.
+**abs**           operator, absolute value of right operand. No () needed\.
 **access**        used to define an access type, pointer
 **after**         specifies a time after NOW
 alias         create another name for an existing identifier
