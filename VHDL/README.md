@@ -155,10 +155,10 @@ begin
 end rtl;
 ```
 ## VHDL Reserved Words
-
-**abs**           operator, absolute value of right operand. No () needed\.
-**access**        used to define an access type, pointer
-**after**         specifies a time after NOW
+```
+abs           operator, absolute value of right operand. No () needed.
+access        used to define an access type, pointer
+after         specifies a time after NOW
 alias         create another name for an existing identifier
 all           dereferences what precedes the .all
 and           operator, logical "and" of left and right operands
@@ -253,4 +253,4 @@ while         kind of loop statement
 with          used in selected signal assignment statement          
 xnor          operator, exclusive "nor" of left and right operands
 xor           operator, exclusive "or" of left and right operands
-
+```
