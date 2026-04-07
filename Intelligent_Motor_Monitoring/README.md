@@ -4,3 +4,4 @@
     -> Power system relaying
     -> Motor Protection
     -> Thermal overload relay
+    -> Edge Computing
