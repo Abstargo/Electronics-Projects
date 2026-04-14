@@ -1,0 +1,10 @@
+[libraries]
+# Define a library and the path to its source files
+my_custom_lib.files = [
+    'src/lib_files/*.vhd',
+]
+
+# Map standard libraries if the extension doesn't find them automatically
+ieee.files = [
+    'C:/path/to/ghdl/lib/ghdl/src/ieee/*.vhd',
+]
