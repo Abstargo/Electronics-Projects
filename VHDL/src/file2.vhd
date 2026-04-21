@@ -28,4 +28,3 @@ architecture structural of adder_4bits is
         end generate;
         COUT <= carry(4);
 end architecture;
-    
