@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity full_adder_tb is
 end entity full_adder_tb;
 
-architecture sim of full_adder_tb is        -- ✅ Fix 1: adder not ladder
+architecture sim of full_adder_tb is        
 
     component full_adder is
         port (
@@ -12,7 +12,7 @@ architecture sim of full_adder_tb is        -- ✅ Fix 1: adder not ladder
             b    : in  std_logic;
             cin  : in  std_logic;
             sum  : out std_logic;
-            cout : out std_logic            -- ✅ Fix 2: no semicolon here
+            cout : out std_logic          
         );
     end component;
 
