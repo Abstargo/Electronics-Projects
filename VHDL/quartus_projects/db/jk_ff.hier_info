@@ -1,0 +1,15 @@
+|jk_ff
+j => process_0.IN0
+j => process_0.IN0
+j => process_0.IN0
+k => process_0.IN1
+k => process_0.IN1
+k => process_0.IN1
+clk => TMP.CLK
+r => TMP.ACLR
+r => TMP.IN0
+s => TMP.IN1
+q <= TMP.DB_MAX_OUTPUT_PORT_TYPE
+p <= TMP.DB_MAX_OUTPUT_PORT_TYPE
+
+
