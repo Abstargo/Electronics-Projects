@@ -22,48 +22,40 @@ begin
         if A(7) = '1' then
             V <= '1';
             Y <= "111"; -- indice 7
+			end if ;
         if A(6) = '1' then
             V <= '1';
             Y <= "110";
+		  end if ;
         if A(5) = '1' then
             V <= '1';
             Y <= "101";
+		  end if ;
         if A(4) = '1' then
             V <= '1';
             Y <= "100";
+		  end if ;
         if A(3) = '1' then
             V <= '1';
             Y <= "011";
+		  end if ;
         if A(2) = '1' then
             V <= '1';
             Y <= "010";
+		  end if ;
         if A(1) = '1' then
             V <= '1';
             Y <= "001";
+		  end if ;
         if A(0) = '1' then
             V <= '1';
             Y <= "000";
-        else
+        else 				
             V <= '0';
-            Y <= '000';
+            Y <= "000";
         end if;
     end process;
 
     -- Assemblage de la sortie B (V en bit de poids fort, Y en bits faibles)
     B <= V & Y;
-end architecture;
-
--- If you want to try to use boucle For you can change the architecture to this :
-
-process(A)
-begin
-    V <= '0';
-    Y <= "000";
-    for i in 7 downto 0 loop
-        if A(i) = "1" then
-            V <= '1';
-            Y <= to_bitvector(i, 3) -- conversion de l'indice en 3 bits
-            exit;
-        end if;
-    end loop;
-end process;
+end architecture behavioral;

@@ -1,0 +1,15 @@
+|priority_encoder
+A[0] => B[3].DATAIN
+A[1] => ~NO_FANOUT~
+A[2] => ~NO_FANOUT~
+A[3] => ~NO_FANOUT~
+A[4] => ~NO_FANOUT~
+A[5] => ~NO_FANOUT~
+A[6] => ~NO_FANOUT~
+A[7] => ~NO_FANOUT~
+B[0] <= <GND>
+B[1] <= <GND>
+B[2] <= <GND>
+B[3] <= A[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
