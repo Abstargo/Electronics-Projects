@@ -7,7 +7,7 @@ use ieee.std_logic_1164.all;
 entity mux4to1 is
     port (
         I0, I1, I2, I3 : in  std_logic;   -- 4 data inputs
-        S               : in  std_logic_vector(1 downto 0);  -- 2-bit selector
+        S               : in  std_logic_vector(1 downto 0);  -- 2-bit selectors
         Y               : out std_logic    -- 1 output
     );
 end entity mux4to1;

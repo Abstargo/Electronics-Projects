@@ -153,6 +153,10 @@ architecture rtl of mux2 is
 begin
     y <= a when sel = '0' else b;
 end rtl;
+
+ (" <= ") : signal assignment , Inside architecture, process
+ (" => ") : Association  , Inside port map only 
+
 ```
 ## VHDL Reserved Words
 ```
