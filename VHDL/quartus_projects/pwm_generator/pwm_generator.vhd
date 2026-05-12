@@ -1,6 +1,6 @@
 
 
----- PWM GENERATOR  ----
+---- PWM GENERATEUR  ----
 
 
 library ieee;

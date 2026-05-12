@@ -1,10 +1,13 @@
 -- Demultiplexeur
 
+library ieee;
+use ieee.std_logic_1164.all;
+
 entity demux_1to8 is
     port (
-        E : in bit;                    -- entree de donnée
-        S : in bit_vector(2 downto 0); -- sélection (S2 S1 S0)
-        Y : out bit_vector(7 downto 0);-- 8 sorties
+        E : in std_logic;                    -- entree de donnÃ©e
+        S : in std_logic_vector(2 downto 0); -- sÃ©lection (S2 S1 S0)
+        Y : out std_logic_vector(7 downto 0)-- 8 sorties
     );
 end entity;
 
