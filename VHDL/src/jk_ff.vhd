@@ -1,4 +1,5 @@
 
+---- BASCULE JK ----
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -45,4 +46,3 @@ begin
 			p <= not TMP;
 			
 end architecture behavioral;
-						

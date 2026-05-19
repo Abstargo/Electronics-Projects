@@ -5,3 +5,4 @@
     -> Motor Protection
     -> Thermal overload relay
     -> Edge Computing
+    -> SCADA WITH MQTT

@@ -1,0 +1,5 @@
+library Dff_Or
+use Dff_Or.PAQ.all
+package PAQ is
+
+end package PAQ;

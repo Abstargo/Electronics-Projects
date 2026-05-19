@@ -1,8 +1,10 @@
+
+
 ---- COMPTEUR A 5 bits ----
 
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+use ieee.std_numeric_std.all;
 
 entity compteur_5bits is
     port (
@@ -14,9 +16,11 @@ entity compteur_5bits is
     );
 end entity compteur_5bits;
 
+
 architecture behavioral of compteur_5bits is 
 
     signal count : unsigned(4 downto 0) := (others => '0');  -- unsigned allows arithmetic like count + 1
+
     begin
         process (H, RESET) is
             begin
@@ -40,7 +44,7 @@ architecture behavioral of compteur_5bits is
                 end if;
         end process;
     
-        M <= '1' when (count = 7 or count = 19) else '0';
+        M <= '1' when (count = 7 or count = 19) else M <= '0';
 
         Y <= std_logic_vector(count);
 
